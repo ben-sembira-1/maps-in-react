@@ -14,7 +14,8 @@ repos:
     hooks:
       - id: conventional-pre-commit
         stages: [commit-msg]
-        args: [
+        args:
+          [
             wip,
             build,
             chore,
@@ -33,5 +34,5 @@ repos:
       - id: eslint
         files: "^src/.*$"
         name: eslint
-        entry: bash -c "cd src; npx eslint --fix ."
+        entry: bash -c "npm i; npm run lint"
         language: node

@@ -7,9 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-python@v3
       - uses: actions/setup-node@v3
-      - name: install node application
-        working-directory: ./src
-        run: npm install
       - uses: pre-commit/action@v3.0.0

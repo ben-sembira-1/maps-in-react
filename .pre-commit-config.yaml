@@ -34,5 +34,5 @@ repos:
       - id: eslint
         files: "^src/.*$"
         name: eslint
-        entry: bash -c "npm i; npm run lint"
+        entry: bash -c "npm run lint"
         language: node

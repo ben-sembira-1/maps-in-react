@@ -1,5 +1,9 @@
 {
     "eslint.enable": true,
     "eslint.format.enable": true,
-    "eslint.lintTask.enable": true
+    "eslint.lintTask.enable": true,
+    "cSpell.words": [
+        "mapbox",
+        "maplibre"
+    ]
 }

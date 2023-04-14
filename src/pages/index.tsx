@@ -33,7 +33,7 @@ export default function Home() {
               <SideBar />
             </Grid2>
             <Divider orientation="vertical" />
-            <Grid2 xs={10}>
+            <Grid2 xs={10} alignItems="center" justifyContent="center">
               <SmartMap />
             </Grid2>
           </Grid2>
